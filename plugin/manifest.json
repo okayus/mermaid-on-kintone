@@ -5,7 +5,7 @@
   "type": "APP",
   "desktop": {
     "js": [
-      "js/desktop.js"
+      "js/Mermaid-on-kintone-desktop.js"
     ],
     "css": [
       "css/51-modern-default.css",
@@ -16,14 +16,14 @@
   "config": {
     "html": "html/config.html",
     "js": [
-      "js/config.js"
+      "js/Mermaid-on-kintone-config.js"
     ],
     "css": [
       "css/51-modern-default.css",
       "css/config.css"
     ],
     "required_params": [
-      "message"
+      "config"
     ]
   },
   "name": {
