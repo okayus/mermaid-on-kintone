@@ -5,6 +5,7 @@
   "type": "APP",
   "desktop": {
     "js": [
+      "https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js",
       "js/Mermaid-on-kintone-desktop.js"
     ],
     "css": [
