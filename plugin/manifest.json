@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/kintone/js-sdk/%40kintone/plugin-manifest-validator%4010.2.0/packages/plugin-manifest-validator/manifest-schema.json",
   "manifest_version": 1,
-  "version": 1,
+  "version": "1.0.1",
   "type": "APP",
   "desktop": {
     "js": [
-      "https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js",
+      "https://cdn.jsdelivr.net/npm/mermaid@11.6.0/dist/mermaid.min.js",
       "js/Mermaid-on-kintone-desktop.js"
     ],
     "css": [

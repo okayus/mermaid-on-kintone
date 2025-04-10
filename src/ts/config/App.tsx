@@ -84,8 +84,8 @@ const App: React.FC<AppProps> = ({ pluginId, cacheAPI }) => {
             ([_, field]) => (field as FieldType).type === "MULTI_LINE_TEXT",
           )
           .map(([_, field]) => ({
-            const: (field as FieldType).label,
-            title: (field as FieldType).code,
+            const: (field as FieldType).code,
+            title: `${(field as FieldType).label}  (フィールドコード：${(field as FieldType).code})`,
           }));
         filteredFieldsOptions.unshift({ const: "", title: "" });
         setInputFieldOptions(filteredFieldsOptions);
